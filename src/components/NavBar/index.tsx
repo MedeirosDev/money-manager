@@ -12,7 +12,7 @@ const NavBar = () => {
 				<li>&nbsp;</li>
 			</ul>
 			<ul>
-				<li>
+				{/* <li>
 					<button className="btn btn-primary">
 						PT-BR
 						<FiGlobe />
@@ -29,12 +29,9 @@ const NavBar = () => {
 							</button>
 						</li>
 					</ul>
-				</li>
+				</li> */}
 				<li>
-					<button className="btn btn-primary">
-						Flávio Medeiros
-						<FiGrid />
-					</button>
+					&nbsp;
 				</li>
 			</ul>
 		</nav>

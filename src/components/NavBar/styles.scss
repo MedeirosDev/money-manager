@@ -6,22 +6,20 @@
 	flex: 1;
 	flex-direction: row;
 	align-items: center;
-	max-height: 4rem;
+	height: 4rem;
 	justify-content: space-between;
 	background-color: $primary-color;
 	color: $text-secondary-color;
 
 	ul {
 		display: flex;
-		flex-wrap: wrap;	
+		flex-wrap: wrap;
 		list-style: none;
 		margin: 0;
 		padding: 0;
-		height: 100%;
+		height: 4rem;
 
 		li {
-			height: 100%;
-
 			&:hover {
 				z-index: 100;
 			}
@@ -29,8 +27,8 @@
 			a,
 			button,
 			span {
-				height: 100%;
-				width: 100%;
+				line-height: 4rem;
+				height: 4rem;
 				padding: 0 1rem;
 				text-decoration: none;
 				color: $text-secondary-color;
@@ -40,7 +38,8 @@
 
 			a > svg,
 			button > svg {
-				margin-left: 0.5rem;
+				width: 1.2rem;
+    		height: 1.2rem;
 			}
 			
 			ul {

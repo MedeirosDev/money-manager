@@ -1,10 +1,10 @@
 @mixin effect-waves($hover-color, $active-color) {
-	
 	transition: background-color 0.2s;
 	background-position: center;
 	transition: background 0.8s;
 
 	&:hover {
+		cursor: pointer;
 		background: $hover-color radial-gradient(circle, transparent 1%, $hover-color 1%) center/15000%;
 	}
 
