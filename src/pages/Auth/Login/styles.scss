@@ -1,0 +1,78 @@
+@import '../../../styles/colors';
+
+#page-login {
+	header {
+		width: 100%;
+		height: 11rem;
+		background-color: $primary-color;
+	}
+	.content {
+		width: 100%;
+		height: 100%;
+		max-width: 69rem;
+		margin: 0 auto;
+		padding: 0 2rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: -8rem;
+	
+		main {
+			flex: 1;
+			max-width: 24rem;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border: none;
+			border-radius: 0.25rem;
+			background-color: white;
+			padding: 2rem;
+			box-shadow: 0rem 0rem 1rem 0rem rgba(0,0,0,0.30);
+		}
+
+		.logo {
+			flex: 1;
+			flex-direction: column;
+			align-self: center;
+			margin-bottom: 1rem;
+			img {
+				max-height: 7rem;
+			}
+			h1 {
+				color: $secondary-color;
+				font-size: 2.5rem;
+				font-family: 'Love Ya Like A Sister', cursive, arial;
+			}
+		}
+
+		.instructions {
+			flex: 1;
+			flex-direction: column;
+			align-self: center;
+			margin-bottom: 1rem;
+		}
+
+		form{
+			display: flex;
+			flex-direction: column;
+			svg {
+				font-size: 2rem;
+			}
+			
+			.btn {
+				margin-top: 2rem;
+				margin-bottom: 0.5rem;
+				svg {
+					font-size: 1rem;
+					margin-right: 0.25rem;
+				}
+			}
+
+			a {
+				align-self: flex-end;
+				margin-top: 0.5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,26 @@
+$primary-color: #34CB79;
+$primary-hover-color: darken($primary-color, 5%);
+$primary-active-color: darken($primary-color, 10%);
+
+$secondary-color: #FF507D;
+$secondary-hover-color: darken($secondary-color, 5%);
+$secondary-active-color: darken($secondary-color, 10%);
+
+$title-color: #2c253a;
+
+$text-color: #6C6C80;
+$text-secondary-color: #F0F0F5;
+
+$text-success: #34CB79;
+$text-error: #f27474;
+
+$background-primary-color: #F0F0F5;
+$background-widget-color: white;
+
+$button-default-color: $background-primary-color;
+$button-default-hover-color: darken($button-default-color, 5%);
+$button-default-active-color: darken($button-default-color, 10%);
+
+$button-primary-color: $primary-color;
+$button-primary-hover-color: darken($button-primary-color, 5%);
+$button-primary-active-color: darken($button-primary-color, 10%);

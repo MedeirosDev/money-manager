@@ -1,0 +1,21 @@
+@import '../../styles/colors';
+
+#page-home {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+
+	.rigth {
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+	}
+
+	.content {
+		background: $background-primary-color;
+		min-height: calc(100vh - 4rem);
+		padding: 1rem;
+	}
+
+	
+}

@@ -1,0 +1,15 @@
+@import './colors';
+
+a,
+a:link,
+a:visited {
+	color: $primary-color;
+}
+
+a:hover {
+	color: $primary-hover-color;
+}
+
+a:active {
+	color: $primary-active-color;
+}

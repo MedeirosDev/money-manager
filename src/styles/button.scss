@@ -1,0 +1,26 @@
+@import './colors';
+@import './effects';
+
+.btn {
+	cursor: pointer;
+	display : flex;
+	align-items : center;
+	justify-content: center;
+	font-size: 1rem;
+	padding: 0.5rem;
+	border-radius: 0.2rem;
+	border: 0;
+	outline: none;
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.44);
+	color: $title-color;
+	background: $button-default-color;
+	
+	@include effect-waves($hover-color: $button-default-hover-color, $active-color: $button-default-active-color);
+
+	&.btn-primary {
+		background: $button-primary-color;
+		color: white;
+
+		@include effect-waves($hover-color: $button-primary-hover-color, $active-color: $button-primary-active-color);
+	}
+}

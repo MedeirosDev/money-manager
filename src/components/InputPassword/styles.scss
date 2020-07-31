@@ -1,0 +1,16 @@
+.input-password {
+	svg {
+		font-size: 2rem;
+	}
+
+	.password-eye {
+		position: absolute;
+		right: 0;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+
+
+		
